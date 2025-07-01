@@ -177,11 +177,6 @@ body {
   margin-bottom: 5px;
 }
 
-#content,
-#content div {
-  border: 2px solid red;
-}
-
 #projects {
   grid-row: 1 / 4;
 }
@@ -189,10 +184,6 @@ body {
 #announcements {
   display: flex;
   flex-direction: column;
-}
-
-#announcements div {
-  border: none;
 }
 
 #ann-cont {
@@ -214,4 +205,40 @@ body {
 .article p {
   color: var(--text-grey);
   font-size: small;
+}
+
+#trending {
+  display: flex;
+  flex-direction: column;
+}
+
+#trend-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px grey;
+  padding: 20px;
+  gap: 15px;
+  /*background: linear-gradient(to right, var(--yellow) 5px, white 5px);*/
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+.account h5 {
+  color: var(--dark-grey);
+}
+
+.account p {
+  color: var(--text-grey);
+  font-size: small;
+}
+
+.account img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 12px;
 }
