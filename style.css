@@ -134,6 +134,7 @@ body {
 
 #lower-header .side#right {
   gap: 15px;
+  margin-right: 65px;
 }
 
 #lower-header .side#left,
